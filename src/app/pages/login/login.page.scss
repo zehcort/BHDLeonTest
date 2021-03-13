@@ -1,0 +1,35 @@
+ion-content {
+  align-items: center;
+  --background: none;
+  /*background-image: url("/assets/images/dominicana.jpeg");*/
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 650px;
+}
+ion-img {
+  display: block;
+  width: 250px;
+  margin: 90px auto;
+}
+ion-input {
+  margin: 15px 20px;
+  width: auto;
+  height: 50px;
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+ion-toggle {
+  height: 26px;
+  width: 44px;
+  --handle-height: 22px;
+  --handle-width: 22px;
+  --background: #cccccc;
+  --background-checked: #49b742;
+}
+ion-label {
+  margin-left: 10px;
+}
+ion-button {
+  margin: 15px 20px;
+}

@@ -1,0 +1,16 @@
+ion-img {
+  display: block;
+  width: 150px;
+  margin: 15px auto;
+}
+
+ion-list {
+  margin-left: 20px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ion-item {
+  margin: 15px auto;
+}

@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" color="primary">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalle del producto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label>Mis tarjetas</ion-label>
+  <ion-list>
+    <app-detailed-card-item [card]="card"> </app-detailed-card-item>
+    <ion-button
+      style="text-transform: none"
+      expand="block"
+      size="large"
+      (click)="payCard()"
+      fill="outline"
+      color="primary"
+      >Pagar</ion-button
+    >
+  </ion-list>
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "BHDLeonTest",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

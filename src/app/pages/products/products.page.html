@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mis productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label>Mis tarjetas</ion-label>
+  <ion-list>
+    <app-card-item *ngFor="let card of cards" [card]="card"> </app-card-item>
+  </ion-list>
+  <ion-label>Mis transacciones</ion-label>
+  <app-transactions-list [transactions]="transactions"></app-transactions-list>
+</ion-content>
